@@ -1,0 +1,3 @@
+[submodule "altium-jlc-library-parser"]
+	path = altium-jlc-library-parser
+	url = git@gitlab.com:prediccio-dev/altium-jlc-library-parser.git
