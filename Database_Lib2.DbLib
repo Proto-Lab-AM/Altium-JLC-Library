@@ -1,0 +1,42 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;User ID=admin3;Data Source=Altium-jlc-parser;Initial Catalog=testing2
+AddMode=3
+RemoveMode=2
+UpdateMode=2
+ViewMode=0
+LeftQuote=`
+RightQuote=`
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(45)
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=symbols_common;footprints_common;footprints
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=1
+SchemaName=ALTIUM
+LastFocusedTable=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT
+[Table1]
+SchemaName=
+TableName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT
+Enabled=True
+UserWhere=0
+UserWhereText=`lcsc_part` = '{lcsc_part}'
+[FieldMap1]
+Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.Description|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.footprint_path|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=footprint_path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.footprint_ref|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=footprint_ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.lcsc_part|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=lcsc_part|FieldType=0|ParameterName=LCSC Part #|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.Library_Ref|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=Library_Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.library_type|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=library_type|FieldType=1|ParameterName=JLCPCB Part Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.library_path|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=library_path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
