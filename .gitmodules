@@ -4,4 +4,3 @@
 [submodule "altium-jlc-parser"]
 	path = altium-jlc-parser
 	url = git@gitlab.com:ev-charging-solutions/altium-jlc-parser.git
-	branch = master
