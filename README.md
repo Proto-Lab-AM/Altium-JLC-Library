@@ -11,11 +11,11 @@
 1. Go to **altium-jlc-parser** folder inside the cloned repo.
 2. Create **.env** file and inside of it set these variables: 
 **DB_USER, DB_PASSWORD, DB_ADDRESS, DB_PORT, DB_NAME** 
+
 3. Go to **config** folder and inside of **filter.json** add available categories and subcategories. You can also choose specific parts based on **mfr_part** and **lcsc_part** 
  
 > Note: you can see new added categories inside of the **Change Log**, or see every category inside of **mapping.json** file.
 4. Run ```main.py```  
-
 
 
 # Change Log
