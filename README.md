@@ -20,6 +20,10 @@
 
 
 # Change Log
+## Release v1.1
+— Added category: **Diodes** <br>
+— Added subcategory: **Diodes  - General Purpose** (Diodes) <br>
+
 ## Release v1.0 
 — Added category: **Resistors** <br>
 — Added subcategory: **Chip Resistor -  Surface Mount** (Resistors) <br>
