@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;User ID=admin3;Data Source=Altium-jlc-parser;Initial Catalog=testing2
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=altium_lib;Initial Catalog=altium_lib
 AddMode=3
 RemoveMode=2
 UpdateMode=2
@@ -19,24 +19,70 @@ LibrarySearchPath=symbols_common;footprints_common;footprints
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=ALTIUM
-LastFocusedTable=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT
+LastFocusedTable=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT
 [Table1]
 SchemaName=
-TableName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT
+TableName=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT
 Enabled=True
 UserWhere=0
-UserWhereText=`lcsc_part` = '{lcsc_part}'
+UserWhereText=
+[Table2]
+SchemaName=
+TableName=Diodes-Diodes-GeneralPurpose
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table3]
+SchemaName=
+TableName=Resistors-ChipResistor-SurfaceMount
+Enabled=True
+UserWhere=0
+UserWhereText=
 [FieldMap1]
-Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.Description|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT.lcsc_part|TableNameOnly=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT|FieldNameOnly=lcsc_part|FieldType=0|ParameterName=LCSC Part #|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.footprint_path|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=footprint_path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT.Description|TableNameOnly=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.footprint_ref|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=footprint_ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT.library_path|TableNameOnly=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT|FieldNameOnly=library_path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.lcsc_part|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=lcsc_part|FieldType=0|ParameterName=LCSC Part #|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT.library_ref|TableNameOnly=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT|FieldNameOnly=library_ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.Library_Ref|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=Library_Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT.footprint_path|TableNameOnly=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT|FieldNameOnly=footprint_path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.library_type|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=library_type|FieldType=1|ParameterName=JLCPCB Part Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT.footprint_ref|TableNameOnly=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT|FieldNameOnly=footprint_ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT.library_path|TableNameOnly=Capacitors - Multilayer Ceramic Capacitors MLCC - SMD-SMT|FieldNameOnly=library_path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT.library_type|TableNameOnly=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT|FieldNameOnly=library_type|FieldType=1|ParameterName=JLCPCB Part Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT.mfr_part|TableNameOnly=Capacitors-MultilayerCeramicCapacitorsMLCC-SMD-SMT|FieldNameOnly=mfr_part|FieldType=1|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Diodes-Diodes-GeneralPurpose.lcsc_part|TableNameOnly=Diodes-Diodes-GeneralPurpose|FieldNameOnly=lcsc_part|FieldType=0|ParameterName=LCSC Part #|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Diodes-Diodes-GeneralPurpose.Description|TableNameOnly=Diodes-Diodes-GeneralPurpose|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Diodes-Diodes-GeneralPurpose.library_path|TableNameOnly=Diodes-Diodes-GeneralPurpose|FieldNameOnly=library_path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Diodes-Diodes-GeneralPurpose.library_ref|TableNameOnly=Diodes-Diodes-GeneralPurpose|FieldNameOnly=library_ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Diodes-Diodes-GeneralPurpose.footprint_path|TableNameOnly=Diodes-Diodes-GeneralPurpose|FieldNameOnly=footprint_path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=Diodes-Diodes-GeneralPurpose.footprint_ref|TableNameOnly=Diodes-Diodes-GeneralPurpose|FieldNameOnly=footprint_ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=Diodes-Diodes-GeneralPurpose.library_type|TableNameOnly=Diodes-Diodes-GeneralPurpose|FieldNameOnly=library_type|FieldType=1|ParameterName=JLCPCB Part Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=Diodes-Diodes-GeneralPurpose.mfr_part|TableNameOnly=Diodes-Diodes-GeneralPurpose|FieldNameOnly=mfr_part|FieldType=1|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=Resistors-ChipResistor-SurfaceMount.lcsc_part|TableNameOnly=Resistors-ChipResistor-SurfaceMount|FieldNameOnly=lcsc_part|FieldType=0|ParameterName=LCSC Part #|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Resistors-ChipResistor-SurfaceMount.Description|TableNameOnly=Resistors-ChipResistor-SurfaceMount|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=Resistors-ChipResistor-SurfaceMount.library_path|TableNameOnly=Resistors-ChipResistor-SurfaceMount|FieldNameOnly=library_path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=Resistors-ChipResistor-SurfaceMount.library_ref|TableNameOnly=Resistors-ChipResistor-SurfaceMount|FieldNameOnly=library_ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=Resistors-ChipResistor-SurfaceMount.footprint_path|TableNameOnly=Resistors-ChipResistor-SurfaceMount|FieldNameOnly=footprint_path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=Resistors-ChipResistor-SurfaceMount.footprint_ref|TableNameOnly=Resistors-ChipResistor-SurfaceMount|FieldNameOnly=footprint_ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=Resistors-ChipResistor-SurfaceMount.library_type|TableNameOnly=Resistors-ChipResistor-SurfaceMount|FieldNameOnly=library_type|FieldType=1|ParameterName=JLCPCB Part Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=Resistors-ChipResistor-SurfaceMount.mfr_part|TableNameOnly=Resistors-ChipResistor-SurfaceMount|FieldNameOnly=mfr_part|FieldType=1|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
